@@ -1,8 +1,15 @@
-;;; hl-tags-mode --- Highlight the current SGML tag context
-
+;;; hl-tags-mode.el --- Highlight the current SGML tag context
+     
 ;; Copyright (c) 2011 Mike Spindel <deactivated@gmail.com>
-;; Modified by Amit J Patel <amitp@cs.stanford.edu> for nxml-mode
-
+     
+;; Author: Mike Spindel <mike@spindel.is>
+;; Maintainer: Amit J Patel <amitp@cs.stanford.edu>
+;; Created: 13 Dec 2011
+;; Keywords: highlight
+;; Homepage: https://github.com/deactivated/hl-tags-mode
+     
+;; This file is not part of GNU Emacs.
+     
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation, either version 3 of the License, or
@@ -134,3 +141,4 @@ boundaries of the current start and end tag , or nil."
 
 
 (provide 'hl-tags-mode)
+;; along with this file.  If not, see <http://www.gnu.org/licenses/>.
